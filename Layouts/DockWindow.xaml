@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="DockWindow" Height="450" Width="800">
     <Grid>
-        
+        <DockPanel>
+            <Button DockPanel.Dock="Top">Top 1</Button>
+            <Button DockPanel.Dock="Bottom">Buttom 1</Button>
+            <Button DockPanel.Dock="Bottom">Buttom 2</Button>
+            <Button DockPanel.Dock="Left">Left</Button>
+            <Button DockPanel.Dock="Right">Right 1</Button>
+            <Button DockPanel.Dock="Top">Top 2</Button>
+            <Button DockPanel.Dock="Right">Right 2</Button>
+            <Button DockPanel.Dock="Right">Center</Button>
+        </DockPanel>
     </Grid>
 </Window>
