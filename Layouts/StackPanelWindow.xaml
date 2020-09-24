@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="StackPanelWindow" Height="450" Width="800">
     <Grid>
-        
+        <StackPanel Height="30" VerticalAlignment="Top">
+            <TextBlock Text="Field 1"/>
+            <TextBox Width="50"/>
+            <TextBlock Text="Field 1"/>
+            <TextBox Width="100"/>
+        </StackPanel>
     </Grid>
 </Window>

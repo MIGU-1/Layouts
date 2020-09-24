@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Layouts"
         mc:Ignorable="d"
         Title="GridSplitterWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid ShowGridLines="true">
+
     </Grid>
 </Window>

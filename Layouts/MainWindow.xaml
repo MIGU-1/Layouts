@@ -6,7 +6,26 @@
         xmlns:local="clr-namespace:Layouts"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="60" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="60" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Button Grid.Column="1" Grid.Row="1" x:Name="stackpanelBtn" >Stackpanel</Button>
+        <Button Grid.Column="1" Grid.Row="3" x:Name="dockBtn">Dock</Button>
+        <Button Grid.Column="1" Grid.Row="5" x:Name="gridBtn">Grid</Button>
+        <Button Grid.Column="1" Grid.Row="7" x:Name="gridsplitterBtn">Gridsplitter</Button>
     </Grid>
 </Window>
