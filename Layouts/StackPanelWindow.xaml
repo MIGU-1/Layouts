@@ -7,11 +7,19 @@
         mc:Ignorable="d"
         Title="StackPanelWindow" Height="450" Width="800">
     <Grid>
-        <StackPanel Height="30" VerticalAlignment="Top">
-            <TextBlock Text="Field 1"/>
-            <TextBox Width="50"/>
-            <TextBlock Text="Field 1"/>
-            <TextBox Width="100"/>
+        <StackPanel>
+            <StackPanel Height="30" Orientation="Horizontal">
+                <TextBlock Text="Field 1" Width="100" HorizontalAlignment="Left"/>
+                <TextBox Width="200" HorizontalAlignment="Right"/>
+            </StackPanel>
+            <StackPanel Height="30" Orientation="Horizontal">
+                <TextBlock Text="Field 2" Width="100" HorizontalAlignment="Left"/>
+                <TextBox Width="200" HorizontalAlignment="Right"/>
+            </StackPanel>
+            <StackPanel Height="30" Orientation="Horizontal">
+                <TextBlock Text="Field 2" Width="100" HorizontalAlignment="Left"/>
+                <TextBox Width="200" HorizontalAlignment="Right"/>
+            </StackPanel>
         </StackPanel>
     </Grid>
 </Window>
